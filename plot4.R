@@ -28,7 +28,7 @@ lines(data1$timestamp,data1$Sub_metering_3,type="l",col="blue")
 legend("topright", col=c("black","red","blue"), c("Sub_metering_1  ","Sub_metering_2  ", "Sub_metering_3  "),lty=c(1,1), lwd=c(1,1))
 
 #plot4
-plot(data1$timestamp,data1$Global_reactive_power,type="l",ylab="Global Reactive Power",xlab="datetime")
+plot(data1$timestamp,data1$Global_reactive_power,type="l",ylab="Global_Reactive_Power",xlab="datetime")
 
 dev.copy(png, file="plot4.png", width=480, height=480)
 dev.off()
