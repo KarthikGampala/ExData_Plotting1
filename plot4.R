@@ -25,7 +25,7 @@ plot(data1$timestamp,data1$Voltage,type="l",ylab="Voltage",xlab="datetime")
 plot(data1$timestamp,data1$Sub_metering_1,type="l",ylab="Energy Sub metering",xlab="")
 lines(data1$timestamp,data1$Sub_metering_2,type="l",col="red")
 lines(data1$timestamp,data1$Sub_metering_3,type="l",col="blue")
-legend("topright", col=c("black","red","blue"), c("Sub_metering_1  ","Sub_metering_2  ", "Sub_metering_3  "),lty=c(1,1), lwd=c(1,1))
+legend("topright", col=c("black","red","blue"), c("Sub_metering_1  ","Sub_metering_2  ", "Sub_metering_3  "),lty=c(1,1), lwd=c(1,1),bty="n",cex=0.5)
 
 #plot4
 plot(data1$timestamp,data1$Global_reactive_power,type="l",ylab="Global_Reactive_Power",xlab="datetime")
